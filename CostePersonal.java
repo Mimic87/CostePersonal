@@ -11,7 +11,7 @@ public class CostePersonal {
                         public boolean esJefazo(Trabajador trabajador) {
                                 return trabajador.getTipoTrabajador() == Trabajador.DIRECTOR ||
                                         trabajador.getTipoTrabajador() == Trabajador.SUBDIRECTOR;
-                        }
+                        } 
 
                         if (!esJefazo(trabajador)){
                                 costeFinal += (trabajador.getHorasExtras() * AUMENTO_POR_EXTRA);
